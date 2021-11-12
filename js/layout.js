@@ -9,6 +9,7 @@ $(function () {
         var activities = url_last_query.indexOf("activities") >= 0;
         var travel_blog = url_last_query.indexOf("travel-blog") >= 0;
         var about_us = url_last_query.indexOf("about-us") >= 0;
+        var contact_us = url_last_query.indexOf("contact-us") >= 0;
 
         if (index || url_last_query === "") {
             $("#layout_header header nav ul").find(".nav_index").addClass("active");
@@ -18,6 +19,8 @@ $(function () {
             $("#layout_header header nav ul").find(".nav_travel_blog").addClass("active");
         } else if (about_us) {
             $("#layout_header header nav ul").find(".nav_about_us").addClass("active");
+        } else if (contact_us) {
+            $("#layout_header header nav ul").find(".nav_contact_us").addClass("active");
         }
     });
 
