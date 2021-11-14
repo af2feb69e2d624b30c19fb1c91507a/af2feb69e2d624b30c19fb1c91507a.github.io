@@ -487,7 +487,7 @@ label {
 	color: #fff;
 	transition: all 0.3s;
 	padding: 10px;
-	z-index: 9999999999;
+	z-index: 1000;
 }
 
 .contact-me-form-message-input {
