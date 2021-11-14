@@ -489,6 +489,11 @@ label {
 	padding: 10px;
 }
 
+.contact-me-form-message-input {
+	min-height: 113px;
+	resize: vertical;
+}
+
 @media (max-width: 768px) {
 	.modal-dialog {
 		min-height: calc(100vh - 20px);
