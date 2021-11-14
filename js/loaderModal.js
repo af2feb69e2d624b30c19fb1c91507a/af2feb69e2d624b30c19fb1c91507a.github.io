@@ -1,7 +1,7 @@
 showLoaderModal = () => {
 	const ww = $(window).width();
 	const guestModalOpen = guestModalOpenGetStatus();
-console.log(guestModalOpen);
+
 	if (guestModalOpen) {
 		if (ww > 768) {
 			$('#loader-modal .modal-content').css({
