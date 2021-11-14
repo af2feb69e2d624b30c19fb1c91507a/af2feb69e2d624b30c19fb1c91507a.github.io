@@ -7061,12 +7061,12 @@ button.close {
 }
 
 .modal-open {
-	overflow: hidden !important;
+	overflow: hidden;
 }
 
 .modal {
 	display: none;
-	overflow: hidden !important;
+	overflow: hidden;
 	position: fixed;
 	top: 0;
 	right: 0;

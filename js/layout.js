@@ -26,3 +26,19 @@ $(function () {
 
     $('#layout_footer').load("layout/footer.html");
 });
+
+$(document).on("show.bs.modal", function (e) {
+    const modalId = e.target.id;
+    const ww = $(window).width();
+    /** Reset position */
+    $('#loader-modal .modal-content').css({
+        'padding-left': '0px'
+    });
+    if (modalId === 'guest-modal') {
+        if (ww > 768) {
+            $('#loader-modal .modal-content').css({
+                'margin-left': '-10px'
+            });
+        }
+    }
+});
