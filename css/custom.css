@@ -478,6 +478,17 @@ label {
 	-webkit-animation: spin 1s ease-in-out infinite;
 }
 
+.back-to-top {
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	display: none;
+	background: #fbb040;
+	color: #fff;
+	transition: all 0.3s;
+	padding: 10px;
+}
+
 @media (max-width: 768px) {
 	.modal-dialog {
 		min-height: calc(100vh - 20px);
