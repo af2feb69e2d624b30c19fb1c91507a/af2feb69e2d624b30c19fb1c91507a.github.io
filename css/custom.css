@@ -479,8 +479,8 @@ label {
 
 .back-to-top {
 	position: fixed;
-	bottom: 25px;
-	right: 25px;
+	bottom: 10px;
+	right: 15px;
 	display: none;
 	background: #fbb040;
 	color: #fff;
