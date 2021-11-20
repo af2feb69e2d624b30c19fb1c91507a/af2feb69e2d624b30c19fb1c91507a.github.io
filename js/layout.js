@@ -1,5 +1,5 @@
 $(function () {
-    $('#layout_header').load("layout/header.html", function () {
+    $('#layout_header').load("https://wondersbeyondlimits.com/layout/header.html", function () {
 
         /* Navigation active status */
         var url = window.location.href;
@@ -24,5 +24,5 @@ $(function () {
         }
     });
 
-    $('#layout_footer').load("layout/footer.html");
+    $('#layout_footer').load("https://wondersbeyondlimits.com/layout/footer.html");
 });
