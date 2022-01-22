@@ -20,7 +20,7 @@ $(document).ready(function () {
 				$guestModal.modal('show');
 				guestModalOpen = true;
 				/* Trigger geolocation permission */
-				navigatorGeolocation((error, coords) => { });
+				// navigatorGeolocation((error, coords) => { });
 			}
 		} else {
 			$guestModal.modal('hide');
